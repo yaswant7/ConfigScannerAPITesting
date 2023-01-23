@@ -30,6 +30,12 @@ namespace WebApplication1
                 cn.ConnectionString = @"data source=DESKTOP-YK\SQLEXPRESS; initial catalog =tsegrp_2_2022;integrated security=true";
                 int counter = 0;
                 cn.Open();
+                string user = "Ajay";
+                string pwd = "Ajay@123";
+                string IPAddress = "123.213.42.2";
+                string datasource = "yash database";
+                string appkey = "ashf237r3";
+                string connectionstring = "desktop-yk/Swwlexpress";
 
 
                 cmd = new SqlCommand();
